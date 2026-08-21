@@ -1,5 +1,7 @@
 ### 📋 Sanger Sequencing Merge, QC & BLAST Pipeline Guide
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mU7lU4xNHfFI0WD41D678TES4H8iOmRm?usp=sharing)
+
 Welcome to the automated Sanger sequence merging and alignment pipeline! This notebook takes your raw `.seq` or `.ab1` chromatogram files, trims low-quality bases, merges paired reads, trims synthetic primers, and runs a remote NCBI BLAST search to identify viruses, organisms, and potential co-infections.
 
 #### **⚙️ Pipeline Architecture**
@@ -29,9 +31,6 @@ Welcome to the automated Sanger sequence merging and alignment pipeline! This no
                                      ▼
                       [ Step 7: Visual Verification ]
                         ( In-Notebook Alignments )
-
-
-
 
 ```
 
